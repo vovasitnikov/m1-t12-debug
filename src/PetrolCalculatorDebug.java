@@ -25,7 +25,7 @@ public class PetrolCalculatorDebug {
         } else if (petrolType == 3) {
             Ai100Calculator calculator = new Ai100Calculator();
             double price = calculator.calculate(volume, discount);
-            System.out.println("Стоимость " + volume + " литров АИ-100 = " + price + "₽");
+            
         }
     }
 }
